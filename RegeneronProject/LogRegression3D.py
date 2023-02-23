@@ -6,7 +6,7 @@ from sklearn.linear_model import LinearRegression
 from sklearn.linear_model import LogisticRegression
 
 # Load data from CSV file
-df = pd.read_csv('data/vis_data.csv')
+df = pd.read_csv('RegeneronProject/data/vis_data.csv')
 
 # Create 3D figure with subplots
 fig, axs = plt.subplots(1, 3, figsize=(15,5), subplot_kw={'projection': '3d'})

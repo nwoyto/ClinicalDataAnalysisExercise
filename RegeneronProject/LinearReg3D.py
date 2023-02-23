@@ -5,7 +5,7 @@ from mpl_toolkits import mplot3d
 from sklearn.linear_model import LinearRegression
 
 # Load data from CSV file
-df = pd.read_csv('data/vis_data.csv')
+df = pd.read_csv('RegeneronProject/data/vis_data.csv')
 
 # Create 3D figure with subplots
 fig, axs = plt.subplots(1, 3, figsize=(15,5), subplot_kw={'projection': '3d'})
@@ -86,5 +86,6 @@ axs[2].set_xlabel('HR4W')
 axs[2].set_ylabel('EF4W')
 axs[2].set_zlabel('AdjLVSize4W')
 axs[2].set_title('4 Weeks')
+
 
 plt.show()
