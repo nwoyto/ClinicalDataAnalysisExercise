@@ -1,4 +1,5 @@
 # ClinicalDataAnalysisExercise
-RegeneronExcercise
+
+## Experimental Design 
 
 ![Experimental design](RegClinFC.png)
